@@ -78,6 +78,14 @@ export function Header() {
           >
             Contact
           </Link>
+          <Link
+            href="https://github.com/kkirankaushal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-gray-700 transition-colors hover:text-primary dark:text-gray-300 dark:hover:text-primary"
+          >
+            GitHub
+          </Link>
           <Button variant="ghost" size="icon" onClick={toggleDarkMode} className="ml-2" aria-label="Toggle dark mode">
             {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
           </Button>
@@ -135,6 +143,15 @@ export function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
+            </Link>
+            <Link
+              href="https://github.com/kkirankaushal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-gray-700 transition-colors hover:text-primary dark:text-gray-300 dark:hover:text-primary"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              GitHub
             </Link>
           </nav>
         </div>
