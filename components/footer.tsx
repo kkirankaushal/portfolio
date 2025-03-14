@@ -42,7 +42,9 @@ export function Footer() {
               <Linkedin className="h-5 w-5" />
             </Link>
             <Link
-              href="#"
+              href="https://github.com/kkirankaushal"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-primary hover:text-white dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-primary dark:hover:text-white"
               aria-label="GitHub"
             >
